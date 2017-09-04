@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>h2{ 
+                font-size: 75px;
+                font-family: "Lucida Console", Monaco, monospace;
+                background-color:rgba(51, 51, 153,0.8);
+                color: white;
+            }
+            input[type="submit"]{
+                background-color:rgba(51,51,153,0.8);
+                color: white;
+                border-radius: 15px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                font-size: 40px; 
+            }
+            input[type="submit"]:hover{
+                background-color: white;
+                color: black;
+                }
+        </style>
+    </head>
+    <body>
+        <form method="POST" action="ServletController">
+            <h1>FORMULARIO</h1>
+            <br>
+            <br>
+            <h4>INGRESE PRIMER NÚMERO</h4>
+            <br>
+            <input type="text" name="NumeroUno">
+            <br>
+            
+            <h4>INGRESE SEGUNDO NÚMERO</h4>
+            <br>
+            <input type="text" name="NumeroDos">
+            <br>
+            <input type="submit" value = "Sumar números">
+        </form>
+    </body>
+</html>
